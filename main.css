@@ -1,0 +1,480 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+a {
+	cursor: pointer;
+}
+
+#menu {
+	width:100%;
+	height:50px;
+	background: rgba(60, 60, 60, 1);
+	display: none;
+}
+
+.small-screen-options {
+	float: right;
+	display: block;
+	height: 50px;
+}
+
+.drop-menu {
+	display: none;
+	float:right;
+	clear: right;
+	text-align: right;
+	background-color: rgba(60, 60, 60, 0.700);
+}
+
+.tinyLink {
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 2px;
+	text-align: center;
+	color: white;
+	font-size: 12pt;
+	cursor: pointer;
+	font-family: 'Cuprum', sans-serif;
+
+}
+
+.drop-menu div {
+	border-bottom: 1px solid gray;
+	border-top: 1px solid gray;	
+}
+
+.link {
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 5px;
+	text-align: center;
+	color: white;
+	font-size: 14pt;
+	cursor: pointer;
+	font-family: 'Cuprum', sans-serif;
+}
+
+.navbar a {
+	line-height: 50px;
+}
+
+.navbar a:visited {
+	color:white;
+}
+
+.navbar a:hover {
+	color:white;
+}
+
+#index {
+	background: url("images/blurry.png") no-repeat center center fixed;
+	display: table;
+	height: 100vh;
+	position: relative;
+	width: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.text-centered {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	width: 100%;
+}
+
+.text-centered h1, .text-centered h2, .text-centered h3  {
+	font-family: 'Shadows Into Light', cursive;
+}
+
+
+.text-centered h1 {
+	font-size: 4.5em;
+	font-weight: 700;
+	padding: 0;
+	position: relative;
+	text-shadow: 1px 1px black;
+}
+
+#headingBorder {
+	width: 50%;
+	height: 50px;
+	margin: 0 auto;
+	visibility: hidden;
+}
+
+.text-centered h2{
+	vertical-align: middle;
+	margin-top: 8px !important;
+	margin-bottom: 0 !important;
+	font-size: 24pt;
+}
+
+.padded{
+	padding: 50px 0	;
+}
+
+#about {
+	display: table;
+	position: relative;
+	width: 100%;
+	height: 300px;
+}
+
+#about h2{
+	font-family: 'Shadows Into Light', cursive;
+	cursor: pointer;
+	text-shadow: 1px 1px black;
+}
+
+/* icons */
+
+#low-centered {
+	position:relative;
+	width: 30%;
+	height: 10%;
+	max-width:150px;
+	max-height:50px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.icons {
+	width: 33.33%;
+	height: same-as-width;
+	max-width: 50px;
+	max-height: 50px;
+	margin: 0;
+	padding: 0;
+	display: inline;
+	float: left;
+	visibility: hidden;
+}
+
+a .icon {
+	width: 100%;
+	height: 100%;
+	max-width: 100px;
+	max-height: 100px;
+	opacity: 0.7;
+}
+
+a .icon:hover{
+	opacity: 1;
+}
+
+.bottom-centered {
+	position:absolute;
+	width: 100%;
+	height: 60px;
+	margin-right: auto;
+	margin-left: auto;
+	bottom: 0;
+	margin-bottom: -10px;
+}
+
+.bottom-centered-projects {
+	height: 60px;
+}
+
+.bottom-centered-dance {
+	height: 60px;
+	position:absolute;
+	width: 100%;
+	margin-top: 5%;
+}
+
+
+
+.next-double-weird {
+	height: 60%;
+	width: same-as-height;
+	max-width: 50px;
+	max-height: 50px;
+	padding: 0;
+	display: inline;
+	opacity: 0.5;
+	margin: 0 auto;
+	cursor: pointer;
+	position: absolute;
+	left: 48%;
+}
+
+.next {
+	height: 60%;
+	width: same-as-height;
+	max-width: 50px;
+	max-height: 50px;
+	padding: 0;
+	display: inline;
+	opacity: 0.5;
+	margin: 0 auto;
+	cursor: pointer;
+}
+
+.next-weird{
+	height: 60%;
+	width: same-as-height;
+	max-width: 50px;
+	max-height: 50px;
+	padding: 0;
+	display: inline;
+	opacity: 0.5;
+	margin: 0 auto;
+	cursor: pointer;
+}
+
+.next:hover{
+	opacity: 1;
+}
+
+.next-weird:hover, .next-double-weird:hover{
+	opacity: 1;
+}
+
+.column {
+	float: left;
+}
+
+#leftDiv {
+	width: 20%;
+}
+
+#rightDiv {
+	width: 80%;
+	text-align: center;
+}
+
+#rightDiv h3 {
+	cursor: pointer;
+
+}
+
+#me {
+	position: relative;
+	width: 50%;
+	height: auto;
+	max-width: 200px;
+	margin: auto auto;
+}
+
+#bio {
+	font-size: 14pt;
+	font-family: 'Helvetica Neue' sans-serif; 
+	text-align: center;
+	line-height: 105%;
+	margin: 10px;
+}
+
+#bio a {
+	color: #fd5e53;
+}
+
+#projects {
+	background: url("images/seaside.jpg") no-repeat center center fixed; 
+	display: table;
+	height: 20vh;
+	position: relative;
+	width: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#projects h1{
+	color: #C0CDCD;
+}
+
+.centered-list {
+	position: relative;
+	text-align: center;
+	padding: 24px;
+}
+
+.centered-list h3{
+	font-family: 'Shadows Into Light', cursive;
+}
+
+#aboutProjects .project {
+    width: 80%;
+    max-width: 700px;
+    margin: 36px auto;
+    font-size: 1.2em; 
+}
+
+#aboutProjects .project .name a {
+	font-weight: bold; 
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 14pt;
+}
+
+#aboutProjects .project a {
+	color: #fd5e53; 
+}
+
+#aboutProjects .project .divider {
+	margin-top: 12px;
+	width: 40px;
+	border-bottom: 1px solid #323232; 
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+#aboutProjects .project .description {
+	text-align: left; 
+    font-family: 'Helvetica Neue' sans-serif; 
+}
+
+#flush-top {
+	vertical-align: top;
+}
+
+#dance {
+	background: url("images/bboy.jpg") no-repeat center center fixed; 
+	display: table;
+	height: 20vh;
+	position: relative;
+	width: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#dance h1 {
+	color: #DCDCDC;
+	cursor: pointer;
+}
+
+#aboutDance {
+	height: auto;
+}
+
+#aboutDance p {
+	font-size: 12pt;
+    font-weight: 400;
+    line-height: 125%;
+    font-family: 'Helvetica Neue' sans-serif;
+    margin: 0 5%;
+}
+
+#aboutDance p a {
+	color: #fd5e53;	
+}
+
+.dance-sidebar{
+	width: 30%;
+	float: left;
+	margin: 0 5%;
+}
+
+.dance-sidebar div {
+	margin: 0 20px;
+	box-sizing: border-box;
+	left: -10px;
+}
+
+.dance-sidebar h4{
+	font-family: 'Shadows Into Light', cursive;
+	cursor: pointer;
+}
+
+.changing-ttt-board{
+	width: 60%;
+	display: inline-block;
+}
+
+.changing-ttt-board iframe {
+	width: 30%;
+	margin: 0 1%;
+	cursor: pointer;
+}
+
+.changing-ttt-board video {
+	width: 45%;
+	cursor: pointer;
+	margin: 1%;
+	display: inline-block;
+}
+
+.changing-ttt-board .novideo {
+	width: 30%;
+	margin: 1%;
+	border: 1px solid black;
+	display: inline-block;
+	text-align: center;
+	height: 150px;
+}
+
+.changing-ttt-board .novideovideo {
+	width: 45%;
+	margin: 1%;
+	border: 1px solid black;
+	display: inline-block;
+	text-align: center;
+	height: 150px;
+}
+
+.changing-ttt-board h4{
+	font-family: 'Shadows Into Light', cursive;
+	cursor: pointer;
+}
+
+.changing-ttt-board a{
+	font-family: 'Shadows Into Light', cursive;
+	cursor: pointer;
+	color: black;
+	font-size: 18pt;
+}
+
+.changing-ttt-board a:hover{
+	text-decoration: none;
+	color: black;
+}
+
+#contact {
+	background: url("images/sunset.jpg") no-repeat center center fixed; 
+	display: table;
+	height: 20vh;
+	position: relative;
+	width: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#contact h1 {
+	color: black;
+	text-shadow: 1px 1px black;
+}
+
+#contactMe{
+	height: 70vh;
+}
+
+#contactMe h2, #contactMe h3 {
+	margin: -10px 40px 30px 40px;
+	font-family: 'Shadows Into Light', cursive;
+}
+
+#contactMe form{
+	width: 80%;
+}
+
+
+footer{
+	padding: 0;
+	margin: 0;
+}
+
+footer p {
+	font: 12pt 'Cuprum';
+	color: #fd5e53;
+}
