@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
-	var adtYoutubeIds = ["WU4S28itOHU", "Le0qVyAkeAg", "CFxwTsq-lUY", "JCKWDp_jyFw", "hc0USqSsnuA", "IOc35QWBoYY", "jXntqigsL_8", "BlmyCVCZL3o", "B9q30hy1m9w"];
-	var danceCoverIds = ["bts-ineedu.mp4", "bts-ineedu.mp4"];
+	var adtYoutubeIds = ["WuulitZGico", "-nwZqIfPUtk", "-3g7kUQXOu8", "x5sw7ggoDXk", "Kj13ZgX_UQ4", "7Ff93a-lwdU", "YbuoNpmTG4M", "jXntqigsL_8",  "BlmyCVCZL3o"];
+	var danceCoverIds = ["7q3Si1SAq_I", "UJxaw20hM7E", "YLKhlJdUxVs"];
 	var bboyIds = [];
 	var tttContent = "";
 
@@ -18,11 +18,11 @@ $(document).ready(function(){
 	});
 
 	$('#danceCovers').on("click", function(){
-		for (var i = 0; i<6; i++){
+		for (var i = 0; i<9; i++){
 			if (danceCoverIds[i] !== undefined){
-				tttContent += '<video height="150" controls><source src="'+danceCoverIds[i]+'" type="video/mp4"></video>';
+				tttContent += '<iframe title="YouTube video player" class="youtube-player" type="text/html" src="https://www.youtube.com/embed/'+danceCoverIds[i]+'" frameborder="0" allowFullScreen></iframe>';
 			} else {
-				tttContent += '<div class="novideovideo"><p>Coming Soon!</p></div>';
+				tttContent += '<div class="novideo"><p>Coming Soon!</p></div>';
 			}
 		}
 		$('.changing-ttt-board').html(tttContent);
